@@ -4,6 +4,8 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import Calculator.screen.calc.R;
+
 public class MainActivity2 extends AppCompatActivity {
 
     @Override

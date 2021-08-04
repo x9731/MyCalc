@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:gravity="center"
     android:orientation="vertical">
 
@@ -40,6 +40,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:text="@string/_1"
+            android:onClick="onNumberClick"
             android:textSize="30sp" />
 
         <com.google.android.material.button.MaterialButton
@@ -48,6 +49,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:text="@string/_2"
+            android:onClick="onNumberClick"
             android:textSize="30sp" />
 
         <com.google.android.material.button.MaterialButton
@@ -56,6 +58,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:text="@string/_3"
+            android:onClick="onNumberClick"
             android:textSize="30sp" />
 
         <com.google.android.material.button.MaterialButton
@@ -64,6 +67,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:text="@string/reset"
+            android:onClick="onClick"
             android:textSize="30sp" />
     </LinearLayout>
 
@@ -78,6 +82,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:text="@string/_4"
+            android:onClick="onNumberClick"
             android:textSize="30sp" />
 
         <com.google.android.material.button.MaterialButton
@@ -86,6 +91,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:text="@string/_5"
+            android:onClick="onNumberClick"
             android:textSize="30sp" />
 
         <com.google.android.material.button.MaterialButton
@@ -94,6 +100,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:text="@string/_6"
+            android:onClick="onNumberClick"
             android:textSize="30sp" />
 
         <com.google.android.material.button.MaterialButton
@@ -102,6 +109,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:text="@string/addition"
+            android:onClick="onClick"
             android:textSize="30sp" />
     </LinearLayout>
 
@@ -116,6 +124,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:text="@string/_7"
+            android:onClick="onNumberClick"
             android:textSize="30sp" />
 
         <com.google.android.material.button.MaterialButton
@@ -124,6 +133,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:text="@string/_8"
+            android:onClick="onNumberClick"
             android:textSize="30sp" />
 
         <com.google.android.material.button.MaterialButton
@@ -132,6 +142,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:text="@string/_9"
+            android:onClick="onNumberClick"
             android:textSize="30sp" />
 
         <com.google.android.material.button.MaterialButton
@@ -140,6 +151,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:text="@string/subtraction"
+            android:onClick="onClick"
             android:textSize="30sp" />
     </LinearLayout>
 
@@ -154,6 +166,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:text="@string/_0"
+            android:onClick="onNumberClick"
             android:textSize="30sp" />
 
         <com.google.android.material.button.MaterialButton
@@ -162,6 +175,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:text="@string/comma"
+            android:onClick="onClick"
             android:textSize="30sp" />
 
         <com.google.android.material.button.MaterialButton
@@ -170,6 +184,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:text="@string/multiplication"
+            android:onClick="onClick"
             android:textSize="30sp" />
 
         <com.google.android.material.button.MaterialButton
@@ -178,6 +193,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:text="@string/division"
+            android:onClick="onClick"
             android:textSize="30sp" />
     </LinearLayout>
 
@@ -188,5 +204,6 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:text="@string/equally"
+        android:onClick="onClick"
             android:textSize="30sp" />
 </LinearLayout>

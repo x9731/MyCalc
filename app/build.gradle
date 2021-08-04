@@ -7,7 +7,7 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "ru.Shvedov.myproject"
+        applicationId "Calculator.screen.calc"
         minSdkVersion 24
         targetSdkVersion 30
         versionCode 1
